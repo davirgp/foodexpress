@@ -34,7 +34,7 @@ foodexpress/
 
 1. Baixe ou clone este repositório:
 ```
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/davirgp/foodexpress.git
 ```
 2. Abra a pasta do projeto.
 3. Dê dois cliques no arquivo `index.html` para abri-lo no navegador.
