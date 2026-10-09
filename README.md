@@ -50,8 +50,7 @@ Não é necessário instalar nada.
 
 🖼️ Prévia
 
-<img width="1905" height="910" alt="image" src="https://github.com/user-attachments/assets/969243fa-71e1-4592-99c3-8aec689fc49c" />
-
+<img width="898" height="907" alt="image" src="https://github.com/user-attachments/assets/ab548119-3189-4b6a-acd7-0088bf1a0513" />
 
 📌 Observações
 
