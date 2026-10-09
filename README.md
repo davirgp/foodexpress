@@ -30,20 +30,9 @@ foodexpress/
 └── README.md
 ```
 
-🚀 Como executar
-
-1. Baixe ou clone este repositório:
-```
-   git clone https://github.com/davirgp/foodexpress.git
-```
-2. Abra a pasta do projeto.
-3. Dê dois cliques no arquivo `index.html` para abri-lo no navegador.
-
-Não é necessário instalar nada.
-
 📱 Como testar o layout responsivo
 
-1. Abra o `index.html` no navegador.
+1. Execute o projeto no navegador.
 2. Pressione **F12** para abrir as ferramentas de desenvolvedor.
 3. Clique no ícone de celular para simular telas menores.
 4. A partir de **768px** de largura, o cardápio passa de 2 para 4 colunas.
