@@ -8,15 +8,6 @@
 </head>
 <body>
 
-  <header id="inicio">
-    <div class="logo">
-      <h1>FoodExpress</h1>
-    </div>
-    <nav>
-      <a href="#cardapio" class="nav-icon">🍴</a>
-    </nav>
-  </header>
-
   <main>
 
     <section class="hero">
@@ -367,6 +358,32 @@
     <a href="#reservas">📅 <span>Reservas</span></a>
     <a href="#contato">📞 <span>Contato</span></a>
   </nav>
+
+  <!-- Botao carrinho -->
+   <div id="carrinho-flutuante">
+    <span class="icone-carrinho">🛒</span>
+    <span id="contador-carrinho">0</span>
+   </div>
+
+   <div id="modal-carrinho" class="modal-overlay">
+    <div class="modal-conteudo">
+      <div class="modal-header">
+        <h2>Carrinho de Compras</h2>
+        <span id="fechar-carrinho" class="fechar">&times;</span>
+      <h2>🛒 Seu Pedido</h2>
+      <button id="fechar-carrinho"> class ="btn-fechar">X</button>
+    </div>
+
+    <ul id="lista-carrinho"></ul>
+
+    <div class="modal-footer">
+      <p> class="total-texto">Total: <strong>R$ <span id="valor-total">0.00</span></strong></p>
+    </div>
+  </div>
+ </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
