@@ -368,19 +368,65 @@
    <div id="modal-carrinho" class="modal-overlay">
     <div class="modal-conteudo">
       <div class="modal-header">
-        <h2>Carrinho de Compras</h2>
-        <span id="fechar-carrinho" class="fechar">&times;</span>
-      <h2>🛒 Seu Pedido</h2>
-      <button id="fechar-carrinho"> class ="btn-fechar">X</button>
+        <h2>🛒 Seu Pedido</h2>
+        <button type="button" id="fechar-carrinho" class="btn-fechar">✖</button>
     </div>
 
     <ul id="lista-carrinho"></ul>
 
     <div class="modal-footer">
-      <p> class="total-texto">Total: <strong>R$ <span id="valor-total">0.00</span></strong></p>
+      <p class="total-texto">Total: <strong>R$ <span id="valor-total">0,00</span></strong></p>
     </div>
-  </div>
- </div>
+
+    <form id="form-pedido" class="pedido-form" novalidate>
+      <h3>Dados de entrega</h3>
+      <div id="msg-erro" class="msg-erro" role="alert"></div>
+    
+    <div class="campo">
+      <label for="ped-nome">Nome completo:</label>
+      <input type="text" id="ped-nome" placeholder="Seu nome">
+    </div>
+
+    <div class="campo">
+      <label for="ped-telefone">Telefone:</label>
+      <input type="tel" id="ped-telefone" placeholder="(32) 99999-9999">
+    </div>
+  
+    <div class="campo">
+      <label for="ped-cep">CEP:</label>
+      <input type="text" id="ped-cep" maxlength="9" inputmode="numeric" placeholder="00000-000">
+      <small id="cep-status"></small>
+    </div>
+
+    <div class="campo">
+      <label for="ped-rua">Rua:</label>
+      <input type="text" id="ped-rua">
+    </div>
+
+    <div class="linha">
+      <div class="campo">
+        <label for="ped-numero">Número:</label>
+        <input type="text" id="ped-numero">
+      </div>
+      <div class="campo">
+        <label for="ped-bairro">Bairro:</label>
+        <input type="text" id="ped-bairro">
+      </div>
+   </div>
+
+   <div class="campo">
+      <label for="ped-cidade">Cidade:</label>
+      <input type="text" id="ped-cidade">
+    </div>
+
+    <div class="campo">
+      <label for="ped-estado">Estado:</label>
+      <input type="text" id="ped-estado">
+    </div>
+
+    <button type="submit" class="btn-enviar">Enviar Pedido</button>
+    </form>
+
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="script.js"></script>
